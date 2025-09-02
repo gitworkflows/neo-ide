@@ -1,0 +1,9 @@
+{
+  "ignore": ["*.test.*", "lib/", "tmp/"],
+  "watch": [
+    "packages/**/src/**",
+    "packages/vscode-extension-gitlab-vscode-extension/dist/gitlab-vscode-extension/dist-browser",
+    "config/.env"
+  ],
+  "ext": "html,ts,json,js,vue,md,png"
+}
